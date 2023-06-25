@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    background-color: rgb(224, 232, 255);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.mainPage {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: rgb(224, 232, 255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.mainPageDiv {
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.imageOfDiv {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.container {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    background-color: rgb(248, 248, 255);
+    padding: 15px;
+    margin: 10px 25px 10px 25px;
+    border-radius: 8px;
+}
+
+.divBelowImage {
+    padding: 15px 45px 35px 45px;
+}
+
+.darkBlueText {
+    color: rgb(30, 46, 80);
+}
+
+.grayText {
+    color: gray;
+}
+
+.btn {
+    background: #144ad1;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 11px 40px 12px 40px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: none;
+}
+  
+.btn:hover {
+background: #3cb0fd;
+text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .mainPageDiv {
+        width: 95%;
+    }
+}
